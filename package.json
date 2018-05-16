@@ -1,0 +1,17 @@
+{
+  "name": "TrialsHQ",
+  "version": "1.0.0",
+  "description": "A website containing video tutorials on riding a trials bike with a feedback system where own attempts can be submitted",
+  "main": "server.js",
+  "scripts": {
+    "start": "npm install; node server.js"
+  },
+  "author": "UP759990",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "express-fileupload": "^0.4.0",
+    "fs": "0.0.1-security",
+    "sqlite3": "^3.1.13"
+  }
+}
